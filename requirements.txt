@@ -1,0 +1,9 @@
+pandas
+psycopg2-binary
+python-dotenv
+langchain
+
+# Pick ONE based on which LLM provider you use (doc allows Gemini or OpenRouter):
+langchain-google-genai      # if using Gemini directly
+# langchain-openai          # if using OpenRouter (OpenAI-compatible API) — uncomment instead
+
