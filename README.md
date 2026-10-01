@@ -1,7 +1,5 @@
 # FlowIQ — AI Workflow Intelligence Platform
 
-> Status: in progress. Data layer complete; analytics + AI layers next.
-
 ## Project Overview
 FlowIQ analyzes operational business workflows (purchase orders, invoice
 approvals, employee onboarding, IT service requests, customer complaint
@@ -16,14 +14,14 @@ it explains what SQL already found.
 CSV data --> PostgreSQL (normalized schema) --> SQL analytical views
                                                       |
                                                       v
-                                          Python (psycopg2) reads views
+                                             Python reads views
                                                       |
                                                       v
-                                       LangChain + LLM turns numbers
+                                          LangChain + LLM turns numbers
                                           into a business recommendation
                                                       |
                                                       v
-                                                CLI output
+                                                    output
 ```
 
 ## Folder Structure
